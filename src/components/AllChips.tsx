@@ -5,7 +5,7 @@ import triange from "../assets/images/bg-triangle.svg"
 export default function AllChips({ rules, setPicked }: { rules: boolean, setPicked: any }) {
     return (
         <main className={`all-chips ${rules ? "darken" : ""}`}>
-            <img className='triangle' src={triange} />
+            <img alt="background triangle" className='triangle' src={triange} />
             <button onClick={()=>setPicked("paper")}>
                 <Chip type="paper" />
             </button>
