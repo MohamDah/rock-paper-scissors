@@ -50,6 +50,8 @@ Users should be able to:
 
 At first, this project seemed very daunting. I've always had trouble with CSS, so I was a bit scared looking at the design. But then I spent time breaking it down and thinking through how I would implement things one by one made it a lot easier. I learned a lot about CSS design and transitions. The logic was also a bit confusing at times, but fortunately I didn't have a lot of trouble with it.
 
+This is also the first project I made with TypeScript. It's surprisingly not as hard as I thought. It is a bit tedious to deal with the type errors, but it's obviously better in the long run. Better fix the bugs now rather than later.
+
 ### Continued development
 
 I definetly have a ways to go in writing clean code. I always feel like I could have wrote this in a more concise and efficient way, but then I would have to refactor my code from the ground up, possibley introductin new bugs. So I'll try to think about what's the best way to write this to reduce redundancy and inefficiency.
