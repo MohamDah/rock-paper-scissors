@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import Rules from './components/Rules'
-import AllChips from './components/allChips'
+import AllChips from './components/AllChips'
 import InGame from './components/InGame'
 import { useState, useEffect } from 'react'
 import { ChipType } from './types'
