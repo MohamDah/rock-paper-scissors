@@ -6,15 +6,15 @@ export default function AllChips({ rules, setPicked }: { rules: boolean, setPick
     return (
         <main className={`all-chips ${rules ? "darken" : ""}`}>
             <img alt="background triangle" className='triangle' src={triange} />
-            <button onClick={()=>setPicked("paper")}>
+            <div role="button" onClick={()=>setPicked("paper")}>
                 <Chip type="paper" />
-            </button>
-            <button onClick={()=>setPicked("scissors")}>
+            </div>
+            <div role="button" onClick={()=>setPicked("scissors")}>
                 <Chip type="scissors" />
-            </button>
-            <button onClick={()=>setPicked("rock")}>
+            </div>
+            <div role="button" onClick={()=>setPicked("rock")}>
                 <Chip type="rock" />
-            </button>
+            </div>
         </main>
     )
 }

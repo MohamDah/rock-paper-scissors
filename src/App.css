@@ -158,7 +158,7 @@ main .triangle {
   width: 45%;
 }
 
-.all-chips button {
+.all-chips > div {
   border: none;
   cursor: pointer;
 }
